@@ -1,0 +1,59 @@
+/* index.html */
+
+* {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  margin-top: 40vh;
+  margin-bottom: 10vh;
+}
+
+.playBtn {
+  width: 200px;
+}
+
+/* game.html */
+
+.game {
+  margin-top: 40vh;
+  margin-bottom: 10vh;
+}
+
+.gameHeading {
+  margin-top: 10vh;
+}
+.move,
+.moveNo {
+  border: solid 1px white;
+  padding: 10px;
+}
+
+.counter {
+  float: right;
+  height: 50px;
+  aspect-ratio: 1;
+  /* border: none; */
+}
+
+.logo {
+  float: left;
+}
+
+.counter:hover {
+  background-color: black;
+  color: white;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
